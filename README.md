@@ -12,7 +12,6 @@
     - Matrix Factorization (Surprise Library / CMFRec)
 
 ## 📂 Dataset
-MovieLens 1M Dataset
 
   - **ratings.dat:** UserID, MovieID, Rating, Timestamp
   
@@ -22,32 +21,22 @@ MovieLens 1M Dataset
 
 ## 🚀 Features
   **1. Data Preprocessing**
-    
-    - Merged ratings, movies, and users into a single dataframe
-    
-    - Extracted Release Year from titles and handled missing values
-    
-    - Aggregated average ratings and number of ratings per movie
+  - Merged ratings, movies, and users into a single dataframe
+  - Extracted Release Year from titles and handled missing values
+  - Aggregated average ratings and number of ratings per movie
 
   **2. Exploratory Data Analysis (EDA)**
-
-    - Visualized rating distribution by genre, age, and popularity
-    
-    - Analyzed average ratings vs. number of ratings
+  - Visualized rating distribution by genre, age, and popularity
+  - Analyzed average ratings vs. number of ratings
 
   **3. Recommendation Engines**
-
-    - Item-based (Pearson Correlation): Recommend 5 similar movies
-    
-    - Cosine Similarity (KNN): Generate user-item similarity matrices
-    
-    - Matrix Factorization (d=4): RMSE & MAPE evaluated; embeddings visualized
+  - Item-based (Pearson Correlation): Recommend 5 similar movies
+  - Cosine Similarity (KNN): Generate user-item similarity matrices
+  - Matrix Factorization (d=4): RMSE & MAPE evaluated; embeddings visualized
 
   **4. User-based Collaborative Filtering**
-
-    - Find top 10 most similar users
-    
-    - Recommend top 10 movies based on weighted ratings
+  - Find top 10 most similar users
+  - Recommend top 10 movies based on weighted ratings
 
 ## 🛠 Tech Stack
   - Python, Pandas, NumPy, Matplotlib, Seaborn
